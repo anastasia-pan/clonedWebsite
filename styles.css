@@ -1,0 +1,211 @@
+* {
+  background-color: ;
+}
+
+h1 {
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
+  color: #424242;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+h2 {
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  font-size: 19px;
+}
+
+.header {
+  padding: 10px;
+  border-bottom: 2px solid #dee2e6;
+  display: flex;
+}
+
+.name {
+  margin-right: 70%;
+  margin-left: 30px;
+}
+
+.dropdownmenu {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.MuiSvgIcon-root {
+  width: 25px;
+  height: 25px;
+}
+.loginButton {
+  font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", Myriad Pro,
+    Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  justify-self: flex-end;
+}
+.bodybox {
+  font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", Myriad Pro,
+    Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  margin: auto;
+
+  display: flex;
+}
+
+.navbar {
+  width: 237px;
+  font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", Myriad Pro,
+    Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* color: #424242;
+  font-size: 1.16rem;
+  font-weight: 400;
+  font-size: 1.16rem; */
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav {
+  display: flex;
+
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.topic {
+  margin-left: 10px;
+}
+
+.hyperlinks {
+  margin-left: 80px;
+}
+.upper {
+  display: flex;
+}
+.mainbody {
+  width: 1134px;
+  height: 3301px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Core {
+  margin: 0;
+}
+.newspreviews {
+  width: 706px;
+  margin-left: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.newspreview1 {
+  display: flex;
+  box-sizing: border-box;
+  width: 706px;
+  height: 318px;
+}
+
+#mappreview {
+  width: 706px;
+  height: 318px;
+  box-sizing: border-box;
+}
+
+.textbox1 {
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
+  width: 307px;
+  height: 262px;
+}
+.otherpreviews {
+  display: flex;
+}
+.newspreview2 {
+  width: 347px;
+  height: 315px;
+  box-sizing: border-box;
+}
+
+#codeximg {
+  width: 347px;
+  height: 315px;
+  box-sizing: border-box;
+}
+.newspreview3 {
+  width: 347px;
+  height: 315px;
+  box-sizing: border-box;
+}
+#harrypotter {
+  width: 347px;
+  height: 315px;
+  box-sizing: border-box;
+}
+
+.lower {
+  display: flex;
+  align-self: center;
+}
+
+.Divider-divider {
+  width: 80px;
+  height: 100px;
+  border-color: black;
+
+  box-sizing: border-box;
+}
+.Divider-compass {
+  width: 50px;
+  height: 62.5;
+}
+
+.showDivs .bodybox {
+  background-color: coral;
+}
+
+.showDivs .rightmenu {
+  background-color: aqua;
+}
+
+.showDivs .mainbody {
+  background-color: yellow;
+}
+.showDivs .newspreviews {
+  background-color: violet;
+}
+
+.showDivs .newspreview1 {
+  background-color: antiquewhite;
+}
+
+.showDivs .newspreview2 {
+  background-color: green;
+}
+
+.showDivs .newspreview3 {
+  background-color: pink;
+}
+
+.showDivs .Divider-divider {
+  background-color: magenta;
+}
+
+.showDivs .Divider-compass {
+  background-color: orange;
+}
+
+.showDivs .Divider-compass {
+  background-color: orange;
+}
