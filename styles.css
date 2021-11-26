@@ -22,6 +22,7 @@ h2 {
   padding: 10px;
   border-bottom: 2px solid #dee2e6;
   display: flex;
+  align-items: center;
 }
 
 .name {
@@ -42,6 +43,7 @@ h2 {
     Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
     Helvetica, Arial, sans-serif;
   justify-self: flex-end;
+  margin-left: 10px;
 }
 .bodybox {
   font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", Myriad Pro,
