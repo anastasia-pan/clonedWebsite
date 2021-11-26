@@ -39,7 +39,17 @@ h2 {
 
 .dropdownmenu {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  background: none;
+  border: none;
+  align-self: center;
+}
+
+.hamburger {
+  width: 17px;
+  margin: 1.5px;
+  height: 2px;
+  background-color: black;
 }
 .MuiSvgIcon-root {
   width: 25px;
