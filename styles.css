@@ -1,6 +1,6 @@
 * {
 }
-
+/* general styling for elements */
 a {
   text-decoration: none;
 }
@@ -9,9 +9,9 @@ h1 {
   font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
     "Book Antiqua", Georgia, serif;
   color: #424242;
-  font-size: 1.7rem;
-  font-weight: 20;
-  opacity: 0.8;
+  font-size: 1.8rem;
+  font-weight: 10;
+  opacity: 0.9;
 }
 h2 {
   font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
@@ -35,6 +35,19 @@ h3 {
   color: rgba(0, 0, 0, 0.87);
   opacity: 0.7;
 }
+
+hr {
+  width: 307;
+  height: 4px;
+  background-color: #b1d4b4;
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+/* styling for Header section */
+
 .header {
   height: 45px;
   width: 100vw;
@@ -87,6 +100,8 @@ h3 {
   font-size: 0.9rem;
   opacity: 0.7;
 }
+
+/* Main Body general styling */
 .bodybox {
   font-family: GreekFallback, Calibri, "Gill Sans", "Gill Sans MT", Myriad Pro,
     Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
@@ -96,6 +111,8 @@ h3 {
 
   display: flex;
 }
+
+/* navbar styling*/
 
 .navbar {
   width: 237px;
@@ -142,6 +159,8 @@ h3 {
 .upper {
   display: flex;
 }
+
+/* Main Body styling (not including navbar)*/
 .mainbody {
   width: 1134px;
   height: 3301px;
@@ -157,7 +176,7 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-
+/* card 1 specific CSS. styles map image, text, author name etc */
 .authorname {
   margin-top: 4px;
 }
@@ -182,31 +201,25 @@ h3 {
   width: 307px;
   height: 262px;
 }
-
+/* story blurb styling to be reused for other cards */
 .blurb {
   font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
     "Book Antiqua", Georgia, serif;
   color: rgba(0, 0, 0, 0.87);
   font-weight: 10;
   line-height: 1.2em;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
-hr {
-  width: 307;
-  height: 4px;
-  background-color: #b1d4b4;
-  border: none;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 2px;
-}
+/* Smaller news cards styling */
+
 .otherpreviews {
   display: flex;
 }
 .newspreview2,
 .newspreview3 {
   width: 358px;
+  margin-top: 12px;
 }
 
 #codeximg,
@@ -215,6 +228,8 @@ hr {
   height: 315px;
   box-sizing: border-box;
 }
+
+/* Lower part of page, compass and arrow symbols */
 
 .lower {
   display: flex;
@@ -243,6 +258,8 @@ hr {
 .showDivs .bodybox {
   background-color: coral;
 }
+
+/* showDivs background colours, for testing purposes, ignore otherwise */
 
 .showDivs .rightmenu {
   background-color: aqua;
